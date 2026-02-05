@@ -1,15 +1,15 @@
 const mongoose=require("mongoose")
 const User=require("./usermodel")
-mongoose.connect("mongodb://127.0.0.1:27017/mydharani").then(()=>{
+mongoose.connect("mongodb://127.0.0.1:27017/myviji").then(()=>{
     console.log("connection success using mongoose lib")
 }).catch(()=>{
     console.log("Error connection")
 })
 
 const myinp=new User({
-    sname:"karthi",
-    age:27,
-    addr:"1/117,light house,esanatham,karur"
+    sname:"Bharani",
+    age:19,
+    addr:"204,punavasipatti"
 
 })
 myinp.save().then(()=>{

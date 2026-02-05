@@ -25,5 +25,5 @@ city:{
     default:'karur'
 }
 })
-const usrMdl=mongoose.model("date",UserSchema)
+const usrMdl=mongoose.model("validations",UserSchema)
 module.exports=usrMdl
